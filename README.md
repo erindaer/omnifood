@@ -1,2 +1,0 @@
-# omnifood
-Practice website
