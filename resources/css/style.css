@@ -69,6 +69,10 @@ h3 {
 /* ================================================ */
 /* --[*]--{ Paragraphs }--------------------------- */
 
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
 .long-copy {
     margin-left: 15%;
     width: 70%;
@@ -176,4 +180,42 @@ header {
 .nav-item:hover,
 .nav-item:active {
     border-bottom: 2px solid #e67e22;
+}
+
+/* ================================================ */
+/* ==[2]=={ Section: Meals }======================= */
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    width: 100%;
+    list-style: none;
+}
+
+.meals-showcase li {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.meal-photo {
+    background-color: #000;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
 }
